@@ -1,0 +1,46 @@
+main{
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .form-container{
+         width: 100%;
+        max-width: 400px;
+        flex-direction: column;
+        gap : 1.5rem;
+        padding: 2rem;
+    }
+
+    .form-title{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap : .75rem;
+    }
+
+    .input-group{
+        display: flex;
+        flex-direction : column;
+        gap: 0.75rem;
+
+        input{
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: .75rem;
+        }
+    }
+    .account-text{
+        text-align: center; 
+    }
+    a{
+      text-align: center;
+        color :#04cfa6;
+        text-decoration: none;
+    }
+    
+}

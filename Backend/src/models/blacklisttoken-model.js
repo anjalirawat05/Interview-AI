@@ -11,6 +11,7 @@ const BlacklistTokenSchema = new mongoose.Schema({
         default: Date.now
     }
 
+
 })
 
 const BlacklistTokenModel = mongoose.model("blacklisttokens",BlacklistTokenSchema)
